@@ -1,0 +1,13 @@
+@import "../../styles/colors";
+
+.frame {
+  min-width: 375px;
+  max-width: 475px;
+  min-height: 500px;
+  max-height: 600px;
+  background-color: white;
+  border-radius: 4%;
+  border: 1px solid $border-color;
+  box-shadow: 12px 12px 2px 1px $border-color;
+  font-family: "Figtree";
+}
