@@ -1,13 +1,13 @@
-import { useState } from "react";
 import "./styles/app.scss";
 import PreviewCard from "./components/PreviewCard/PreviewCard";
+import articleImg from "./assets/images/illustration-article.svg";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const tags = ["learning"];
 
   return (
     <>
-      <PreviewCard />
+      <PreviewCard url={articleImg} tagList={tags} />
     </>
   );
 }

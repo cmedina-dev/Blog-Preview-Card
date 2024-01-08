@@ -1,9 +1,9 @@
 import card from "./card.module.scss";
 
-const PreviewCardImage = () => {
+const PreviewCardImage = ({ url }: { url: string }) => {
   return (
     <>
-      <img></img>
+      <img src={url}></img>
     </>
   );
 };
