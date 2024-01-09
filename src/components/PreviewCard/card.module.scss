@@ -1,21 +1,48 @@
-@import "../../styles/colors";
+@import '../../styles/colors';
 
 .frame {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-width: 375px;
-  max-width: 475px;
-  min-height: 500px;
-  max-height: 600px;
-  background-color: white;
-  border-radius: 4%;
-  border: 1px solid $border-color;
-  box-shadow: 12px 12px 2px 1px $border-color;
-  font-family: "Figtree";
+  background-color: $secondary;
+  border-radius: 24px; // Adjust the radius as needed
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-top: 1px;
+  font-family: 'Figtree';
+  font-size: 16px;
+
+  .container {
+    background-color: #fff;
+    border-radius: 23px;
+    box-shadow: 12px 12px 0 $secondary;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 375px;
+    max-width: min-content;
+    min-height: 500px;
+    max-height: 600px;
+    width: 85%;
+  }
+
+  .date {
+    width: 85%;
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 24px;
+    width: 85%;
+  }
+
+  .text {
+    margin: 0;
+    width: 85%;
+    color: $tertiary;
+  }
 
   img {
-    margin-top: 16px;
+    margin-top: 24px;
     border-radius: 4%;
+    width: 85%;
   }
 }

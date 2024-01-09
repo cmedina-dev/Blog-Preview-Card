@@ -1,9 +1,14 @@
-import tag from "./tag.module.scss";
+import Tag from './Tag';
+import tag from './tag.module.scss';
 
 const TagList = ({ tagList }: { tagList: string[] }) => {
   return (
     <>
-      <div className={tag.tagList}></div>
+      <div className={tag.tagList}>
+        {tagList.map(item => (
+          <Tag tagType={item} key={item} />
+        ))}
+      </div>
     </>
   );
 };

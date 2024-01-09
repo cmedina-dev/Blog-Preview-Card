@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "Figtree";
-  src: local("Figtree"),
-    url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype"),
-    url("../assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
-      format("truetype");
+  font-family: 'Figtree';
+  src:
+    local('Figtree'),
+    url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype'),
+    url('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf')
+      format('truetype');
 }
