@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-with-reacttypescript-aDT1LEEFWH)
 - Live Site URL: [Cloudflare Pages](https://blog-preview-card-d93.pages.dev/)
 
 ## My process
