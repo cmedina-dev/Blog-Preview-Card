@@ -4,6 +4,7 @@ import card from './card.module.scss';
 import PreviewCardImage from './PreviewCardImage';
 import PreviewCardTitle from './PreviewCardTitle';
 import PreviewCardText from './PreviewCardText';
+import PreviewCardAvatar from './PreviewCardAvatar';
 
 interface PreviewCardProps {
   url: string;
@@ -11,6 +12,7 @@ interface PreviewCardProps {
   date: string;
   title: string;
   text: string;
+  author: string;
 }
 
 const PreviewCard = (cardProps: PreviewCardProps) => {
@@ -23,6 +25,7 @@ const PreviewCard = (cardProps: PreviewCardProps) => {
           <PreviewCardDate date={cardProps.date} />
           <PreviewCardTitle title={cardProps.title} />
           <PreviewCardText text={cardProps.text} />
+          <PreviewCardAvatar author={cardProps.author} />
         </div>
       </div>
     </>
